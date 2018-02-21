@@ -1,10 +1,18 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.uddoit.intercom.Group.GroupListFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <SearchView
+        android:id="@+id/group_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Pepe Silvia..."
+        android:iconifiedByDefault="false"
+        android:focusedByDefault="false">
+    </SearchView>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/group_recycler"
@@ -12,4 +20,4 @@
         android:layout_height="match_parent"
         android:background="@android:color/darker_gray"/>
 
-</FrameLayout>
+</LinearLayout>

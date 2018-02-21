@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/intercom.iml" filepath="$PROJECT_DIR$/intercom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intercomAndroid.iml" filepath="$PROJECT_DIR$/intercomAndroid.iml" />
     </modules>
   </component>
 </project>
