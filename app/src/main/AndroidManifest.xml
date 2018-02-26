@@ -28,6 +28,7 @@
             android:label="UpdateReceiver">
             <intent-filter>
                 <action android:name="com.clover.sdk.app.intent.action.APP_NOTIFICATION" />
+                <action android:name="com.clover.sdk.employee.intent.action.ACTIVE_EMPLOYEE_CHANGED" />
             </intent-filter>
         </receiver>
 
