@@ -32,6 +32,15 @@
             </intent-filter>
         </receiver>
 
+        <receiver
+            android:name=".Util.BootReceiver"
+            android:enabled="true"
+            android:label="Boot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
         <service
             android:name=".Util.YakService"
             android:enabled="true"
